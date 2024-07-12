@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.image-section {
+    position: relative;
+    width: 50%;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-section .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    margin-bottom: 465px;
+    margin-left: 50px;
+    color:rgb(113, 250, 16);
+    
+}
+.para {
+    color: rgb(19, 18, 18);
+}
+
+.image-section h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.image-section p {
+    font-size: 16px;
+}
+
+.login-section {
+    padding: 40px;
+    width: 50%;
+}
+
+.login-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-left: 181px;
+    color: #007BFF;
+}
+
+.login-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 192px;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section label {
+    margin-bottom: 5px;
+    color: #007BFF;
+}
+
+.login-section input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-section button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.social-login button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.social-login img{
+    width: 57px;
+}
+.or {
+    margin-left: 40px;
+}
